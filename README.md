@@ -10,8 +10,9 @@ Add your MONGO_URI to the config/keys.js file.
 # Install dependencies for server
 npm install
 
-# Install dependencies for client
-npm run client-install
+# Install React
+cd client
+create-react-app .
 
 # Run the client & server with concurrently
 npm run dev
